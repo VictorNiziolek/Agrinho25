@@ -3,7 +3,7 @@
 Projeto desenvolvido para o Concurso Agrinho 2025 - Subcategoria 4 (HTML e CSS)
 
 ## 🌐 Link publicado:
-https://seuusuario.github.io/agrinho-2025/
+https://github.com/VictorNiziolek/Agrinho25
 
 ## 📜 Tema:
 “Festejando a Conexão Campo-Cidade”
