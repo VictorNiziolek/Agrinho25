@@ -8,6 +8,23 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
+  <div class="intro">
+  <h1 class="intro-text">Bem-vindo ao nosso site!</h1>
+</div>
+  <div class="intro">
+    <h2 class="intro-text">Conexão Campo-Cidade</h2>
+    <p class="intro-text">Um projeto que celebra a união entre o campo e a cidade.</p>
+  </div>
+  <div class="intro">
+    <h2 class="intro-text">A importância dessa conexão</h2>
+    <p class="intro-text">O campo e a cidade são interdependentes, e essa relação é essencial para o desenvolvimento sustentável do Brasil.</p>
+  </div>  
+  <div class="intro">
+    <h2 class="intro-text">Celebrações</h2>
+    <p class="intro-text">Festas, feiras e eventos culturais mostram a força dessa união.</p>
+  </div>
+<input type="checkbox" id="modo" hidden>
+<label for="modo" class="switch">🌞 / 🌙</label>
 
 <!-- Navegação -->
 <nav>
@@ -112,6 +129,34 @@
     </div>
   </div>
 </section>
+ 
+<!-- Carrossel -->
+<section class="secao">
+  <div class="container">
+    <h2 class="secao-titulo fonte-titulo"><i class="fas fa-images"></i> Nossa Galeria</h2>
+    <div class="galeria-container">
+      <div class="galeria-item sombra-hover"><img src="https://images.unsplash.com/photo-1500382018108-84409d9d1f9d?auto=format&fit=crop&w=800&q=80" alt=""><div class="galeria-item-conteudo"><h3 class="fonte-titulo">Belezas do Campo</h3><p>Natureza e produção.</p></div></div>
+      <div class="galeria-item sombra-hover"><img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=800&q=80" alt=""><div class="galeria-item-conteudo"><h3 class="fonte-titulo">Dinâmica Urbana</h3><p>Transformação e oportunidades.</p></div></div>
+      <div class="galeria-item sombra-hover"><img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=800&q=80" alt=""><div class="galeria-item-conteudo"><h3 class="fonte-titulo">Trabalho Rural</h3><p>O esforço que alimenta o país.</p></div></div>
+    </div>
+  </div>
+  <div class="carrossel">
+  <input type="radio" name="carrossel" id="item1" checked>
+  <input type="radio" name="carrossel" id="item2">
+  <input type="radio" name="carrossel" id="item3">
+
+  <div class="slides">
+    <div class="slide img1"></div>
+    <div class="slide img2"></div>
+    <div class="slide img3"></div>
+  </div>
+
+  <div class="botoes">
+    <label for="item1"></label>
+    <label for="item2"></label>
+    <label for="item3"></label>
+  </div>
+</div>
 
 <!-- Contato -->
 <section id="contato" class="secao">
@@ -138,6 +183,28 @@
     </div>
   </div>
 </footer>
+ <section class="secao">
+  <div class="container">
+    <h2 class="secao-titulo fonte-titulo">Mapa Simulado</h2>
+    <div class="mapa-simulado">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Mapa_do_Brasil_com_estados.svg/800px-Mapa_do_Brasil_com_estados.svg.png" alt="Mapa do Brasil">
+      <div class="legenda">
+        <span class="ponto" style="top: 40%; left: 45%;">🌽 Agricultura</span>
+        <span class="ponto" style="top: 60%; left: 35%;">🌆 Indústria</span>
+      </div>
+    </div>
+  </div>
+  
+</section>
+ <section class="secao">
+  <div class="container">
+    <h2 class="secao-titulo fonte-titulo"><i class="fas fa-volume-up"></i> Ouça nosso Tema</h2>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+      Seu navegador não suporta o elemento de áudio.
+    </audio>
+  </div>
+</section>
 
 </body>
 </html>
